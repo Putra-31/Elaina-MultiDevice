@@ -411,8 +411,6 @@ const listMessage = {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    let audio = `${pickRandom(['https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane22.mp3', 'https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane15.mp3','https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane1.mp3','https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane2.mp3','https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane20.mp3','https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane10.mp3','https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane23.mp3','https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane17.mp3','https://raw.githubusercontent.com/hyuura/Rest-Sound/main/HyuuraKane/mangkane21.mp3','https://raw.githubusercontent.com/Aisyah-Aldi/Sound/main/sound74.mp3])}`
-    await conn.sendFile(m.chat, audio, 'error.mp3', null, m, true)
     
     //----------------- FAKE
  let fvn = {quoted: { key: {participant : '0@s.whatsapp.net'},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds": "2022","ptt": "true"} } }}
