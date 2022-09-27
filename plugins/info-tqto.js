@@ -51,6 +51,8 @@ https://github.com/LitRHap
 https://github.com/Rlxfly
 *❉ Aine:*
 https://github.com/Aiinne
+*❉ Irfaan Official:*
+https://github.com/Alfarabotz567
 *❉ Papah-Chan:*
 https://github.com/FahriAdison
 *▸ - - - —「 Penulis Ulang 」— - - - ◂*
@@ -68,8 +70,8 @@ https://github.com/ImYanXiao
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/Xiao_yan_21",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/Xiao_yan_21", 
-    title: 'Elaina-MultiDevice',
+    description: "https://Instagram.com/irfaanabdulhafizh", 
+    title: 'Alfarabotz MD',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
