@@ -1,4 +1,5 @@
-//By ImYanXiao
+// Made By Aguz Familia
+// Recode By ImYanXiao
 
 import fs from 'fs'
 import fetch from 'node-fetch'
@@ -16,8 +17,8 @@ handler.all = async function (m) {
 		
         //global.bg = await (await fetch(img)).buffer()
 		global.doc = pickRandom(["application/vnd.ms-excel", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "application/msword", "application/pdf", "application/vnd.android.package-archive", "application/zip"])
-		global.pic = pickRandom(hwaifu) 
-		global.fla = pickRandom(flaaa)
+		global.pic = hwaifu.getRandom()
+		global.fla = flaaa.getRandom()
 
 		// Module 
 		global.fetch = import('node-fetch')
@@ -46,10 +47,10 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Elaina-MultiDevice',
+					description: 'Irfaan Official',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(thumb)).buffer(),
-					sourceUrl: "https://github.com/ImYanXiao",					
+					sourceUrl: "https://github.com/Alfarabotz567",					
 				}
 			}
 		}
@@ -83,8 +84,8 @@ handler.all = async function (m) {
          contextInfo: { externalAdReply: { showAdAttribution: true,
             mediaUrl: "https://Instagram.com/Xiao_yan_21",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/Xiao_yan_21", 
-            title: 'Elaina-MultiDevice',
+            description: "https://Instagram.com/irfaanabdulhafizh", 
+            title: 'Alfarabotz Multi-Device',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sig
@@ -95,7 +96,7 @@ global.fakefb = {
             mediaUrl: "https://Facebook.com/zuck",
             mediaType: "VIDEO",
             description: "https://www.Facebook.com/zuck", 
-            title: 'Elaina-MultiDevice',
+            title: 'Alfarabotz Multi-Device',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
