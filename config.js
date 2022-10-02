@@ -55,20 +55,20 @@ global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '089531704997' //Nomor Danamu
-global.ppulsa = '081646829895' //Nomor SimCard Yang Kamu Pake
+global.pdana = '085852939370' //Nomor Danamu
+global.ppulsa = '082223011829' //Nomor SimCard Yang Kamu Pake
 global.psaweria = 'https://saweria.co/Irfaan567' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6289531704997' //Nomor Bot
-global.nomorown = '6285624823115' //Nomor Owner
-global.namebot = 'Alfarabotz' //Nama Bot
-global.nameown = 'Irfaan Official' // Nama Owner
+global.nomorbot = '6285852939370' //Nomor Bot
+global.nomorown = '6282223011829' //Nomor Owner
+global.namebot = 'ALganzbotz' //Nama Bot
+global.nameown = 'Alganz OFC' // Nama Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6285624823115', '❦ 𝚇 𝚒 𝚊 𝚘 - 𝚈𝚊𝚗? 🎐', true] //Ganti jd nomormu sama Namamu
+  ['6282223011829', '❦ 𝚇 𝚒 𝚊 𝚘 - 𝚈𝚊𝚗? 🎐', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
