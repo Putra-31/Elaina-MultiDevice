@@ -48,35 +48,35 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/irfaanabdulhafizh' //Link Instagrammu
-global.sgh = 'https://github.com/Alfarabotz567' //Link Githubmu
-global.sgc = 'https://chat.whatsapp.com/CMJv1GXTUht1A1be7ocTY2'
+global.sig = 'https://instagram.com/fanntex9' //Link Instagrammu
+global.sgh = 'https://github.com/gaara-off' //Link Githubmu
+global.sgc = 'https://chat.whatsapp.com/F2tqNFaoyU9Aof9YnGxJeG'
 global.sdc = '-' //Isi Pake Link Discordmu Kalo Gada Biarin aja
 global.snh = 'https://nhentai.net/g/HaramTod🗿' //Hmmm, Ini boleh kalian isi terserah :v
 
 /*============== PAYMENT ==============*/
-global.pdana = '085852939370' //Nomor Danamu
-global.ppulsa = '082223011829' //Nomor SimCard Yang Kamu Pake
-global.psaweria = 'https://saweria.co/Irfaan567' //Link Saweriamu Kalo Nggada Ketik - aja
+global.pdana = '082184730062' //Nomor Danamu
+global.ppulsa = '082184730062' //Nomor SimCard Yang Kamu Pake
+global.psaweria = 'https://saweria.co/revan' //Link Saweriamu Kalo Nggada Ketik - aja
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285852939370' //Nomor Bot
-global.nomorown = '6282223011829' //Nomor Owner
-global.namebot = 'ALganzbotz' //Nama Bot
-global.nameown = 'Alganz OFC' // Nama Owner
+global.nomorbot = '6282184730062' //Nomor Bot
+global.nomorown = '6282184730062' //Nomor Owner
+global.namebot = 'Fanzbotz' //Nama Bot
+global.nameown = 'Revan' // Nama Owner
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282223011829', '❦ 𝚇 𝚒 𝚊 𝚘 - 𝚈𝚊𝚗? 🎐', true] //Ganti jd nomormu sama Namamu
+  ['6282184730062', '❦ 𝑹𝒆𝒗𝒂𝒏? 🎐', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
 
-global.lolkey = 'apikeymu'
-global.xkey = 'APIKEYMU'
+global.lolkey = '8e66d0934cf741bfd2182c16'
+global.xkey = 'ebb6251cc00f9c63'
 /*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -91,18 +91,18 @@ global.APIs = { // API Prefix
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'APIKEYMU',
+  'https://api.xteam.xyz': 'ebb6251cc00f9c63',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Apikeymu',
+  'https://api.lolhuman.xyz': '8e66d0934cf741bfd2182c16',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://violetics.pw': 'beta'
 }
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 ᴀʟғᴀʀᴀʙᴏᴛᴢ 汉  」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ɪʀғᴀᴀɴ - ᴏғғɪᴄɪᴀʟ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ ᴀʟғᴀʀᴀʙᴏᴛᴢ'
+global.wm = '                「 𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳 汉  」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝑹𝒆𝒗𝒂𝒏 - ᴏғғɪᴄɪᴀʟ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ 𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳'
 global.botdate = `⫹⫺ 𝗛𝗮𝗿𝗶: ${week} ${date}`
 global.bottime = `𝗪𝗮𝗸𝘁𝘂 : ${wktuwib}`
 global.titlebot = '🎋 ┊ 𝗥𝗣𝗚 ʙᴏᴛ ᴡʜᴀᴛsᴀᴘᴘ'
@@ -112,9 +112,9 @@ global.logo = 'https://ibb.co/17RY7x9'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/f4f40d033035c75bba157.jpg' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/f4f40d033035c75bba157.jpg'
-global.thumbbc = 'https://telegra.ph/file/f4f40d033035c75bba157.jpg' //For broadcast
+global.thumb = 'https://telegra.ph/file/6c50ce51dcc7bf294e2fa.jpg' //Main Thumbnail
+global.thumb2 = 'https://telegra.ph/file/8ca989bc73f287b50b27d.jpg'
+global.thumbbc = 'https://telegra.ph/file/8ca989bc73f287b50b27d.jpg' //For broadcast
 global.giflogo = 'https://telegra.ph/file/a46ab7fa39338b1f54d5a.mp4'
 global.hwaifu = ['https://i.pinimg.com/originals/ed/34/f8/ed34f88af161e6278993e1598c29a621.jpg',
 'https://i.pinimg.com/originals/85/4d/bb/854dbbd30304cd69f305352f0183fad0.jpg',
@@ -369,9 +369,9 @@ global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
 global.stickpack = '.'
-global.stickauth = `☂︎\nᴀʟғᴀʀᴀʙᴏᴛᴢ\nWhatsapp BOT\nwa.me/${global.nomorbot}`
+global.stickauth = `☂︎\n𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳\nWhatsapp BOT\nwa.me/${global.nomorbot}`
 global.packname = 'Cʀᴇᴀᴛᴇᴅ Bʏ'
-global.packname2 = 'ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴀʟғᴀʀᴀʙᴏᴛᴢ'
+global.packname2 = '𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳'
 
 global.multiplier = 38 // The higher, The harder levelup
 

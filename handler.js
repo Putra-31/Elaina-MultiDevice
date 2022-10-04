@@ -277,7 +277,7 @@ export async function handler(chatUpdate) {
                 if (!('isBanned' in chat))
                     chat.isBanned = false
                 if (!('welcome' in chat))
-                    chat.welcome = true
+                    chat.welcome = false
                 if (!('detect' in chat))
                     chat.detect = false
                 if (!('sWelcome' in chat))
@@ -291,7 +291,7 @@ export async function handler(chatUpdate) {
                 if (!('delete' in chat))
                     chat.delete = true
                 if (!('antiLink' in chat))
-                    chat.antiLink = false
+                    chat.antiLink = true
                 if (!('viewonce' in chat))
                     chat.viewonce = false
                 if (!('antiToxic' in chat))
@@ -313,16 +313,16 @@ export async function handler(chatUpdate) {
             } else
                 global.db.data.chats[m.chat] = {
                     isBanned: false,
-                    welcome: true,
+                    welcome: false,
                     detect: false,
                     sWelcome: '',
                     sBye: '',
                     sPromote: '',
                     sDemote: '',
                     delete: true,
-                    antiLink: false,
+                    antiLink: true,
                     viewonce: false,
-                    antiToxic: true,
+                    antiToxic: false,
                     simi: false,
                     expired: 0,
                     nsfw: false,
@@ -336,7 +336,7 @@ export async function handler(chatUpdate) {
             if (settings) {
                 if (!('self' in settings)) settings.self = false
                 if (!('autoread' in settings)) settings.autoread = false
-                if (!('restrict' in settings)) settings.restrict = false
+                if (!('restrict' in settings)) settings.restrict = true
                 if (!('anticall' in settings)) settings.anticall = true
                 if (!('autorestart' in settings)) settings.autorestart = false
                 if (!('restartDB' in settings)) settings.restartDB = 0
@@ -346,7 +346,7 @@ export async function handler(chatUpdate) {
                 autorestart: false,
                 anticall: true,
                 restartDB: 0,
-                restrict: false
+                restrict: true
             }
         } catch (e) {
             console.error(e)
@@ -701,10 +701,10 @@ export async function participantsUpdate({ id, participants, action }) {
                                 membercount: groupMetadata.participants.length
                             })
     conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'ok', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://youtube.com/channel/UCaFh82MyrVgcgIvJxvTA39w",
+    mediaUrl: "https://github.com/gaara-ofc",
     mediaType: 2, 
-    description: "https://youtu.be/-TleC8rbDT8", 
-    title: 'Alfarabotz MD',
+    description: "https://github.com/gaara-ofc", 
+    title: '𝐅𝐚𝐧𝐳𝐁𝐨𝐭𝐳 MD',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sig
