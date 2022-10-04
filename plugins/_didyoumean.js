@@ -16,4 +16,4 @@ export async function before(m, { match, usedPrefix, command }) {
 	if (mean) this.sendButton(m.chat, caption, wm, null, [['✅ Yes', `${usedPrefix + mean} ${text}`], ['❌ No', usedPrefix + '?']], m, { mentions: this.parseMention(caption) })
 	}
 }
-export const disabled = false
+export const disabled = true

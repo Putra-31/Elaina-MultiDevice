@@ -41,18 +41,10 @@ https://github.com/Ameliascrf
 https://github.com/Fokusdotid
 *❉ Johannes:*
 https://github.com/Johannes2803
-*❉ BrunoSobrino:*
-https://github.com/BrunoSobrino
-*❉ Krisna:*
-https://github.com/NevtBotz
-*❉ LitRHap:*
-https://github.com/LitRHap
-*❉ Rlxfly:*
-https://github.com/Rlxfly
+*❉ Gaara Setyawan:*
+https://github.com/gaara-ofc
 *❉ Aine:*
 https://github.com/Aiinne
-*❉ Irfaan Official:*
-https://github.com/Alfarabotz567
 *❉ Papah-Chan:*
 https://github.com/FahriAdison
 *▸ - - - —「 Penulis Ulang 」— - - - ◂*
@@ -68,10 +60,10 @@ https://github.com/ImYanXiao
 
 `
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/Xiao_yan_21",
+    mediaUrl: "https://github.com/gaara-ofc",
     mediaType: "VIDEO",
-    description: "https://Instagram.com/irfaanabdulhafizh", 
-    title: 'Alfarabotz MD',
+    description: "https://instagram.com/fanntex9", 
+    title: 'Fanzzbotz MD',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc

@@ -61,7 +61,7 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 			"surface": "CATALOG",
 			"message": "",
 			"orderTitle": `${packname}`,
-			"sellerJid": "6285736178354@s.whatsapp.net",
+			"sellerJid": "201507384088@s.whatsapp.net",
 			"token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 			"totalAmount1000": fsizedoc,
 			"totalCurrencyCode": "IDR"
@@ -90,7 +90,7 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 			"surface": "CATALOG",
 			"message": `${packname}`,
 			"orderTitle": `${packname}`,
-			"sellerJid": "6285736178354@s.whatsapp.net",
+			"sellerJid": "201507384088@s.whatsapp.net",
 			"token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 			"totalAmount1000": fsizedoc,
 			"totalCurrencyCode": "IDR"
@@ -146,9 +146,9 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 			"firstImageId": 1,
 			"salePriceAmount1000": fsizedoc,
 			"retailerId": `${packname}`,
-			"url": "wa.me/62881037044211"
+			"url": "wa.me/201507384088"
 		},
-			"businessOwnerJid": "62881037044211@s.whatsapp.net",
+			"businessOwnerJid": "201507384088@s.whatsapp.net",
 		}
 	}), { userJid: m.chat, quoted: ftrolii })	
 	//=================================================//	

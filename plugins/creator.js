@@ -20,16 +20,16 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = 'https://telegra.ph/file/cce9ab4551f7150f1970d.jpg'
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : AL Ganz 
-${htjava} *✉️ Nama RL* : Rahasia🗿
+${htjava} *💌 Nama* : Fanzbot
+${htjava} *✉️ Nama RL* : Van
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : 15 Oktober 2004
-${htjava} *🎨 Umur* : 22
+${htjava} *⏰ Tanggal lahir* : Privat
+${htjava} *🎨 Umur* : -
 ${htjava} *🧮 Kelas* : Tamat
-${htjava} *🧩 Hobby* : MENCINTAIMU 
+${htjava} *🧩 Hobby* : Turu 
 ${htjava} *💬 Sifat* : BURUK SEKALI 
-${htjava} *🗺️ Tinggal* : Indo, SURABAYA, Jawa Timur
+${htjava} *🗺️ Tinggal* : Indo,Medan, Sumut
 ${htjava} *❤️ Suka* : KAMU
 ${htjava} *💔 Benci* : autis, seleb
 

@@ -28,8 +28,8 @@ handler.all = async function (m) {
         
 		// Ini untuk command crator/owner
 		global.kontak2 = [
-         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), ' ', 'yanxiao021@gmail.com', true],
-         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), ' ', 'yanxiao021@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
+         [owner[0], await conn.getName(owner[0] + '@s.whatsapp.net'), ' ', 'Revan@gmail.com', true],
+         [owner[1], await conn.getName(owner[1] + '@s.whatsapp.net'), ' ', 'Fanzbot@gmail.com', true], // Kalo mau di tambah tinggal copy 1baris ini di tempel di bawahnya trs di edit dikit!
         ]
         
 		// ucapan ini mah
@@ -47,10 +47,10 @@ handler.all = async function (m) {
 					title: global.ucapan,
 					body: wm,
 					mediaUrl: sgc,
-					description: 'Irfaan Official',
+					description: 'Revan Official',
 					previewType: "PHOTO",
 					thumbnail: await (await fetch(thumb)).buffer(),
-					sourceUrl: "https://github.com/Alfarabotz567",					
+					sourceUrl: "https://github.com/gaara-ofc",					
 				}
 			}
 		}
@@ -82,10 +82,10 @@ handler.all = async function (m) {
 			}
 		global.fakeig = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Instagram.com/Xiao_yan_21",
+            mediaUrl: "https://instagram.com/fanntex9",
             mediaType: "VIDEO",
-            description: "https://Instagram.com/irfaanabdulhafizh", 
-            title: 'Alfarabotz Multi-Device',
+            description: "https://instagram.com/fanntex9", 
+            title: '???????? Multi-Device',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sig
@@ -93,10 +93,10 @@ handler.all = async function (m) {
     } }
 global.fakefb = {
          contextInfo: { externalAdReply: { showAdAttribution: true,
-            mediaUrl: "https://Facebook.com/zuck",
+            mediaUrl: "https://Facebook.com/mark",
             mediaType: "VIDEO",
-            description: "https://www.Facebook.com/zuck", 
-            title: 'Alfarabotz Multi-Device',
+            description: "https://www.Facebook.com/mark", 
+            title: 'Fanzzbot Multi-Device',
             body: wm,
             thumbnailUrl: pp,
             sourceUrl: sgc
@@ -164,7 +164,7 @@ global.fakefb = {
                                "jpegThumbnail": fs.readFileSync('./thumbnail.jpg') //Gambarnye
                            },
                            "title": wm, //Kasih namalu 
-                           "description": "Elaina-MultiDevice", 
+                           "description": "Fanzz-MultiDevice", 
                            "currencyCode": "USD",
                            "priceAmount1000": "20000000",
                            "retailerId": "Ghost",
@@ -197,7 +197,7 @@ global.fakefb = {
                "groupInviteMessage": {
                    "groupJid": "6285736178354-1625305606@g.us",
                    "inviteCode": "null",
-                   "groupName": "Kawan Elaina", 
+                   "groupName": "Kawan Revan", 
                    "caption": wm, 
                    'jpegThumbnail': fs.readFileSync('./thumbnail.jpg')
                }
@@ -269,7 +269,7 @@ function ucapan() {
 		res = "Selamat Dini hari 🌌"
 	}
 	if(time >= 4) {
-		res = "Selamat pagi ⛅"
+		res = "Selamat pagi �?"
 	}
 	if(time > 10) {
 		res = "Selamat siang 🌅"

@@ -313,8 +313,8 @@ let tek = `✧────···[ Dashboard ]···────✧
 │⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┬
 ├━━━━━━━━━━━━━━━━┈─⋆
-│ ▸ *ᴀᴜᴛʜᴏʀ :* ʙᴏᴄʜɪʟɢᴀᴍɪɴɢ
-┴ ▸ *ᴏᴡɴᴇʀ :* ɪʀғᴀᴀɴ ᴏғғɪᴄɪᴀʟ
+│ ▸ *ᴀᴜᴛʜᴏʀ :* 𝐆𝐚𝐚𝐫𝐚 𝐒𝐞𝐭𝐲𝐚𝐰𝐚𝐧
+┴ ▸ *ᴏᴡɴᴇʀ :* 𝑹𝒆𝒗𝒂𝒏
 ✧
 ┬ 📌 𝗣𝗶𝗻𝗻𝗲𝗱 :
 │ ʙᴇʀɪ ᴊᴇᴅᴀ ʏᴀʜ ᴋᴀᴋ ^ω^
@@ -505,7 +505,7 @@ const listMessage = {
 
     surface : 1,
 
-    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya Kak ^ω^', 
+    message: '[❗] Memuat Menu ' + teks + '...\n Sabar Ya Kak,Orang Sabar Disayang Janda:v ^ω^', 
 
     orderTitle: `▮Menu ▸`,
 
@@ -578,7 +578,7 @@ const listMessage = {
                 {
                     urlButton: {
                         displayText: `${namebot}`,
-                        url: 'https://github.com/ImYanXiao/Elaina-MultiDevice'
+                        url: 'https://github.com/gaara-ofc'
                     }
                 },
                 {
